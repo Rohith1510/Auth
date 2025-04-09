@@ -2,7 +2,7 @@ import HomeIntro from './HomeIntro'
 const HomePage = () => {
 
   return (
-    <div className='max-w-screen-2xl w-full min-h-screen'>
+    <div className='min-h-screen w-full overflow-x-hidden'>
         <HomeIntro /> 
     </div>
   )
