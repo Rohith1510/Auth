@@ -32,7 +32,7 @@ const Signup = () => {
     },
     onError: (error) => {
       console.error("Signup error:", error);
-      setMessage("Signup failed. Please try again.");
+      // setMessage("Signup failed. Please try again.");
     },
   });
 
@@ -65,7 +65,7 @@ const Signup = () => {
       });
     } catch (err) {
       console.error("Signup error:", err);
-      setMessage("Signup failed. Please try again.");
+      // setMessage("Signup failed. Please try again.");
     }
   };
 

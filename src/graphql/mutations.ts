@@ -26,3 +26,19 @@ export const SIGNUP_USER = gql`
     }
   }
 `;
+
+
+// UserDbs query
+export const GET_USER_DBS = gql`
+  query UserDbs {
+    userDbs {
+      DOB
+      Name
+      documentId
+      email
+      phone
+      is_active
+    }
+  }
+`;
+
